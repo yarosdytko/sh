@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+  p2pclient1:
+    image: peer2profit/peer2profit_x86_64:latest
+    environment:
+      P2P_EMAIL: shadowmanyd@gmail.com
+    restart: always
+
+  p2pclient2:
+    image: peer2profit/peer2profit_x86_64:latest
+    environment:
+      P2P_EMAIL: yarosdytko@gmail.com
+    restart: always
+
+  p2pclient3:
+    image: peer2profit/peer2profit_x86_64:latest
+    environment:
+      P2P_EMAIL: umuyq@mailto.plus
+    restart: always
